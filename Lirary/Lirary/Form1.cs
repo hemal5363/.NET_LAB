@@ -99,9 +99,29 @@ namespace Lirary
         {
             id = Convert.ToInt32(textBox1.Text);
             int bid = Convert.ToInt32(textBox2.Text);
-            cmd.CommandText = "Insert into issued_record values(id,bid) select s_id,b_id from issued_record join book where book.count>0 ";
+            
+            cmd.CommandText = $"Insert into issued_record values({id},{bid})";// select s_id,b_id from issued_record join book where book.count>0 ";
+            //Reader=cmd.ExecuteReader();
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch(Exception ob)
+            {
+                label12.Text = "book is already issued";
+            }
+            
+            button1_Click(sender,e);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            id = Convert.ToInt32(textBox1.Text);
+            int bid = Convert.ToInt32(textBox2.Text);
+            cmd.CommandText = $"delete from issued_record where  s_id={id} and b_id={bid}";// select s_id,b_id from issued_record join book where book.count>0 ";
             //Reader=cmd.ExecuteReader();
             cmd.ExecuteNonQuery();
+            button1_Click(sender, e);
         }
     }
 }
