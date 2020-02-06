@@ -1,0 +1,9 @@
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.csprojAssemblyReference.cache
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.Form1.resources
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.Properties.Resources.resources
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.csproj.GenerateResource.cache
+D:\library management\.NET_LAB-master\Lirary\Lirary\bin\Debug\Lirary.exe.config
+D:\library management\.NET_LAB-master\Lirary\Lirary\bin\Debug\Lirary.exe
+D:\library management\.NET_LAB-master\Lirary\Lirary\bin\Debug\Lirary.pdb
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.exe
+D:\library management\.NET_LAB-master\Lirary\Lirary\obj\Debug\Lirary.pdb
